@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+    <title>Teachzy-School Mangement</title>
+</head>
+
+<body>
+    <!-- navbar section start from here  -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo-inverse-396x100.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Academics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">History</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tutors
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Team member</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Sinlge post</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Gallery</a></li>
+                  <li><a class="dropdown-item" href="#">404</a></li>
+                  <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                  <li><a class="dropdown-item" href="#">Search Result</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <div class="search_nav ms-auto">
+                <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav> 
+      <!-- navbar section end here  -->
+
+      <!-- slider/baner section start from here  -->
+      <section class="banner" id="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Inspiration, Innovation and Discovery</h1>
+                  <p>Any successful career starts with good education. Together with us you will have deeper knowledge of the subjects that will be especially useful for you when climbing the career ladder.</p>
+                  <a class="btn btn-primary" href="#" role="button">Learn More</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Investing in Knowledge and Your Future</h1>
+                  <p>At Teachzy, you can succeed in lots of research areas and benefit from investing in your education and knowledge that will help you in becoming an experienced specialist.</p>
+                  <a class="btn btn-primary" href="#" role="button">Learn More</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Open Minds Aimed at Creating Future</h1>
+                  <p>Build your future with us! The educational programs of our University will give you necessary skills, training, and knowledge to make everything you learned here work for you in the future.</p>
+                  <a class="btn btn-primary" href="#" role="button">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      <!-- slider/banner section end here  -->
+
+      <!-- what we offer secction start from here  -->
+      <section class="we_offer mt-5 mb-5">
+        <div class="container-fluid">
+            <div class="offer_heading">
+                <span>Guaranteed Success</span>
+                <h1>What We Offer</h1>
+                <p>Teachzy offers students the best of education and entertainment opportunities available in the area. <br> We are glad to take care of every student and university entrant.</p>
+            </div>
+            <div class="offer_content">
+                <div class="row">
+                    <div class="col">
+                        <div class="online_image">
+                            <img src="./images/online-education.png" alt="">
+                        </div>
+                        <div class="online_heading">
+                            <h2>Online Education</h2>
+                        </div>
+                        <div class="online_para">
+                            <p>Teachzy provides online education services with all learning materials and lectures available to you.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="online_image">
+                            <img src="./images/program_course.png" alt="">
+                        </div>
+                        <div class="online_heading">
+                            <h2>Programs & Courses</h2>
+                        </div>
+                        <div class="online_para">
+                            <p>We offer a wide range of courses and  programs that encompass lots of knowledge spheres.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="online_image">
+                            <img src="./images/campus.png" alt="">
+                        </div>
+                        <div class="online_heading">
+                            <h2>Campus Events</h2>
+                        </div>
+                        <div class="online_para">
+                            <p>Our campus is the hub to a talented and diverse student community that turns opportunities into success.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- what we offer section end here  -->
+
+      <!-- courses section start from here  -->
+      <section class="courses">
+        <div class="container-fluid">
+          <div class="courses_top_heading">
+            <h1>Our Featured Courses</h1>
+            <p>Our featured courses are selected through a rigorous process and uniquely created for each semester. They cover a lot of topics and are available both online and offline.</p>
+          </div>
+          <div class="courses_box mt-4">
+            <div class="row">
+              <div class="col">
+                <div class="box">
+                  <div class="box_img_prize">
+                    <img src="./images/online_marketing.jpg" alt="">
+                    <div class="prize_box">
+                      <span>$40</span>
+                    </div>
+                  </div>
+                  <div class="courses_name">
+                    <a href="#"><h6>Online Marketing</h6></a>
+                    <span>Ronald Richards</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="box">
+                  <div class="box_img_prize">
+                    <img src="./images/HR_management.jpg" alt="">
+                    <div class="prize_box">
+                      <span>$30</span>
+                    </div>
+                  </div>
+                  <div class="courses_name">
+                    <a href="#"><h6>HR Marketing</h6></a>
+                    <span>Ralph Edward</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="box">
+                  <div class="box_img_prize">
+                    <img src="./images/financial_analystics.jpg" alt="">
+                    <div class="prize_box">
+                      <span>$50</span>
+                    </div>
+                  </div>
+                  <div class="courses_name">
+                    <a href="#"><h6>Financial Analytcs</h6></a>
+                    <span>Emma Smith</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="box">
+                  <div class="box_img_prize">
+                    <img src="./images/web_technology.jpg" alt="">
+                    <div class="prize_box">
+                      <span>$80</span>
+                    </div>
+                  </div>
+                  <div class="courses_name">
+                    <a href="#"><h6>Web Technology</h6></a>
+                    <span>Kathryn Murphy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- courses section end here  -->
+
+      <!-- tutor section start from here  -->
+      <div class="tutor mt-5 ">
+        <div class="container-fluid">
+          <div class="tutor_heading mb-3">
+            <h6>People Behind Our Success</h6>
+            <h1>Our Tutors</h1>
+            <p>We employ highly experienced and qualified teachers who set the ground for all our programs and courses. They are aimed to help you achieve more on your path to success.</p>
+          </div>
+          <div class="tutor_info">
+            <div class="row mt-5 mb-5">
+              <div class="col">
+                <div class="tutor_abt">
+                  <div class="tutor_img">
+                    <img src="./images/tutor1.jpg" alt="">
+                  </div>
+                  <div class="tutor_detail">
+                    <a href="#">
+                      <h3>Lesile Alexander</h3>
+                    </a>
+                      <span>Tutor</span>
+                      <p>Lesile joined our team 2010 as a marketing tutor.</p>
+                      <div class="tutor_social_icon">
+                        <a href="#"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                        <a href="#"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                        <a href="#"> <span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="tutor_abt">
+                  <div class="tutor_img">
+                    <img src="./images/tutor2.jpg" alt="">
+                  </div>
+                  <div class="tutor_detail">
+                    <a href="#">
+                      <h3>Cameron Williamson</h3>
+                    </a>
+                      <span>Course assistant</span>
+                      <p>Cameron helps Teachzy team with online programs.</p>
+                      <div class="tutor_social_icon">
+                        <a href="#"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                        <a href="#"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                        <a href="#"> <span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="tutor_abt">
+                  <div class="tutor_img">
+                    <img src="./images/tutor3.jpg" alt="">
+                  </div>
+                  <div class="tutor_detail">
+                    <a href="#">
+                      <h3>Theresa Webb</h3>
+                    </a>
+                      <span>Lead tutor</span>
+                      <p>Theresa is one of our best foreign language tutors.</p>
+                      <div class="tutor_social_icon">
+                        <a href="#"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                        <a href="#"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                        <a href="#"> <span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row  mt-5 mb-5">
+              <div class="col">
+                <div class="tutor_abt">
+                  <div class="tutor_img">
+                    <img src="./images/tutor4.jpg" alt="">
+                  </div>
+                  <div class="tutor_detail">
+                    <a href="#">
+                      <h3>Jacob Jones</h3>
+                    </a>
+                      <span>Program coordinator</span>
+                      <p>Jacob coordinates most of our programs & courses.</p>
+                      <div class="tutor_social_icon">
+                        <a href="#"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                        <a href="#"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                        <a href="#"> <span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="tutor_abt">
+                  <div class="tutor_img">
+                    <img src="./images/tutor5.jpg" alt="">
+                  </div>
+                  <div class="tutor_detail">
+                    <a href="#">
+                      <h3>Brooklyn Simmons</h3>
+                    </a>
+                      <span>Professor</span>
+                      <p>Brooklyn is our leading management tutor.</p>
+                      <div class="tutor_social_icon">
+                        <a href="#"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                        <a href="#"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                        <a href="#"> <span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="tutor_abt">
+                  <div class="tutor_img">
+                    <img src="./images/tutor6.jpg" alt="">
+                  </div>
+                  <div class="tutor_detail">
+                    <a href="#">
+                      <h3>Wade Warren</h3>
+                    </a>
+                      <span>Lead tutor</span>
+                      <p>Wade is an author of Web Tehcnology programs.</p>
+                      <div class="tutor_social_icon">
+                        <a href="#"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                        <a href="#"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                        <a href="#"> <span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- tutor section end here  -->
+
+      <!-- why choose us section start from here  -->
+      <section class="why_choose_us">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-7 box_1">
+              <div class="choose_us_heading">
+                <h2>Why Choose Us</h2>
+                <p>Teachzy offers quality education helping you build your future career. Here just some of the facts that show why students choose us.</p>
+              </div>
+              <div class="stats_of_teachzy">
+                <div class="row">
+                  <div class="col">
+                   <div class="graduated_stat">
+                    <div class="icon">
+                      <img src="./images/graduated.png" alt="">
+                    </div>
+                    <div class="stat_heading">
+                      <span>97%</span>
+                      <p>Graduated</p>
+                    </div>
+                   </div>
+                  </div>
+                  <div class="col">hi</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">hey</div>
+          </div>
+        </div>
+      </section>
+      <!-- why choose us section end here  -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

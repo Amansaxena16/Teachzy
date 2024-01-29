@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* navbar css start from here  */
+.navbar {
+    background-color: #04d2c8;
+}
+
+.navbar .container-fluid a img {
+    width: 180px;
+}
+
+.navbar .container-fluid a {
+    margin-left: 25px;
+}
+
+.navbar .container-fluid .collapse ul {
+    gap: 40px;
+}
+
+.navbar .container-fluid .collapse ul li a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.navbar .container-fluid .collapse ul li a:hover {
+    color: #9aede9;
+    transition: 0.2s ease-in;
+}
+
+.navbar .container-fluid .collapse .dropdown-item {
+    color: black;
+}
+
+.navbar .container-fluid .collapse .dropdown-item:hover {
+    color: #04d2c8;
+}
+
+.navbar .container-fluid .collapse .nav-item .dropdown-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container-fluid .collapse ul li .active {
+    color: #9aede9;
+    font-weight: 600;
+}
+
+.navbar .container-fluid .search_nav {
+    margin-right: 25px;
+}
+
+.navbar .container-fluid .search_nav a {
+    color: #fff;
+    font-size: 17px;
+}
+
+.navbar .container-fluid .search_nav a:hover {
+    color: #9aede9;
+    transition: 0.2s ease-in;
+}
+
+/* navbar css end here  */
+
+/* slider/banner section css start from here  */
+.banner .carousel .carousel-inner .carousel-item .carousel-caption {
+    padding-bottom: 14rem;
+    margin: auto;
+    width: 58%;
+}
+
+.banner .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 4.4rem;
+    font-weight: 600;
+}
+
+.banner .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.banner .carousel .carousel-inner .carousel-item .carousel-caption .btn {
+    padding: 15px 36px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 1.875rem;
+    background-color: #04d2c8;
+    border: none;
+    transition: 0.2s ease-in-out;
+    opacity: 8;
+}
+
+.banner .carousel .carousel-inner .carousel-item .carousel-caption .btn:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #03a098;
+}
+
+/* slider/banner section css start from here  */
+
+
+/* what we offer css section start from here  */
+.we_offer .container-fluid .offer_heading {
+    margin: auto;
+    width: 82%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    padding-bottom: 2rem;
+}
+
+.we_offer .container-fluid .offer_heading span {
+    color: #04d2c8;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.we_offer .container-fluid .offer_heading h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: #42495b;
+}
+
+.we_offer .container-fluid .offer_heading p {
+    font-size: 17px;
+    text-align: center;
+    color: #9a9a9a;
+    line-height: 1.65;
+    letter-spacing: 1px;
+}
+
+.we_offer .container-fluid .offer_content {
+    width: 90%;
+    margin: auto;
+}
+
+.we_offer .container-fluid .offer_content .row .col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we_offer .container-fluid .offer_content .row .col .online_image img {
+    width: 150px;
+}
+
+.we_offer .container-fluid .offer_content .row .col .online_heading h2 {
+    font-weight: 600;
+    color: #42495b;
+}
+
+.we_offer .container-fluid .offer_content .row .col .online_para p {
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-align: center;
+    color: #595959;
+}
+
+/* what we offer css section end here  */
+
+/* courses section css start from here  */
+.courses {
+    background-color: #e9eff4;
+    height: 700px;
+}
+
+.courses .container-fluid .courses_top_heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    gap: 8px;
+    padding-top: 5rem;
+}
+
+.courses .container-fluid .courses_top_heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #42495b;
+}
+
+.courses .container-fluid .courses_top_heading p {
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #888a8c;
+}
+
+.courses .container-fluid .courses_box .row .col .box .box_img_prize img {
+    width: 100%;
+}
+
+.courses .container-fluid .courses_box .row .col .box {
+    position: relative;
+}
+
+.courses .container-fluid .courses_box .row .col .box .box_img_prize .prize_box {
+    background-color: #ff9900;
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    padding: 1px 9px;
+    border-radius: 6px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.courses .container-fluid .courses_box .row .col .box .courses_name {
+    background-color: #04d2c8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.courses .container-fluid .courses_box .row .col .box .courses_name a {
+    text-decoration: none;
+}
+
+.courses .container-fluid .courses_box .row .col .box .courses_name a h6 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.courses .container-fluid .courses_box .row .col .box .courses_name span {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* courses section css end here  */
+
+/* tutor section css start from here  */
+.tutor .container-fluid .tutor_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    gap: 8px;
+}
+
+.tutor .container-fluid .tutor_heading h6 {
+    font-size: 23px;
+    color: #04d2c8;
+    font-weight: 600;
+}
+
+.tutor .container-fluid .tutor_heading h1 {
+    font-size: 58px;
+    font-weight: 600;
+    color: #42495b;
+}
+
+.tutor .container-fluid .tutor_heading p {
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #888a8c;
+}
+.tutor .container-fluid .tutor_info .row {
+    margin: auto;
+    width: 97%;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt {
+    display: flex;
+    gap: 15px;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_img img {
+    border-radius: 50%;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_detail a {
+    text-decoration: none;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_detail a h3 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #42495b;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_detail a h3:hover{
+      color: #04d2c8;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_detail span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #595959;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_detail p {
+    color: #5e5e5e;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_detail .tutor_social_icon {
+    gap: 17px;
+    display: flex;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_detail .tutor_social_icon a span {
+    color: #04d2c8;
+}
+.tutor .container-fluid .tutor_info .row .col .tutor_abt .tutor_detail .tutor_social_icon a span:hover{
+    color: #42495b;
+}
+/* tutor section css end here  */
+
+/* why choose us section css start from here  */
+.why_choose_us .container-fluid .row .box_1 {
+    background-color: #04d2c8;
+}
+.why_choose_us .container-fluid .row .choose_us_heading h2 {
+    font-size: 3.9rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.why_choose_us .container-fluid .row .choose_us_heading p {
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+} 
+.why_choose_us .container-fluid .row .stats_of_teachzy .row .graduated_stat {
+    display: flex;
+}
+.why_choose_us .container-fluid .row .stats_of_teachzy .row .graduated_stat .icon img {
+    width: 110px;
+}
+.why_choose_us .container-fluid .row .stats_of_teachzy .row .graduated_stat .stat_heading {
+    line-height: normal;
+}
+.why_choose_us .container-fluid .row .stats_of_teachzy .row .graduated_stat .stat_heading span {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.why_choose_us .container-fluid .row .stats_of_teachzy .row .graduated_stat .stat_heading p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* why choose us section css end here  */
